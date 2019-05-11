@@ -13,24 +13,20 @@ const Index = () => (
     </Head>
     <Navbar />
     {/* <VerifyEmailModal /> */}
-    <section className="container">
-      <section className="hero section-header row">
-        <div className="col-md-7 col-12 my-7 flex-justify flex-column">
-          <h4 className="h3-md mw-2">
-            Kelola Layanan Kesehatan Lebih Mudah dan Terkoneksi dengan Pasien Langsung
+    <section className="hero-header section-header flex-items">
+      <div className="container ">
+        <h4 className="h3-md mw-2">
+          Kelola Layanan Kesehatan Lebih Mudah dan Terkoneksi dengan Pasien Langsung
           </h4>
-          <button className="btn btn--medium primary mt-5 mw-1">
-            <Link href="/register">
-              <a >Coba Gratis Sekarang</a>
-            </Link>
-          </button>
-        </div>
-        <div className="hero__image col-md-5 col-12 mt-7 mt-md-0">
-          <div className="hero__person" />
-          <div className="hero__decoration"></div>
-        </div>
-      </section>
-      <section className="section first-section">
+        <button className="btn btn--medium primary mt-5 mw-1">
+          <Link href="/register">
+            <a >Coba Gratis Sekarang</a>
+          </Link>
+        </button>
+      </div>
+    </section>
+    <section className="container">
+      <section className="section no-border first-section">
         <div className="row my-md-7">
           <div className="col-md-6 col-12 pr-md-7 flex-justify align-items-start  flex-column">
             <img src="/static/image/landing-page-1.jpg" />
@@ -120,7 +116,7 @@ const Index = () => (
             </div>
             <div className="content-item col-6 col-sm-4 col-md-3">
               <div className="item-icon">
-                <img src="/static/icon/service-4.svg" />
+                <img src="/static/icon/service-6.svg" />
               </div>
               Klinik Utama
             </div>
@@ -132,7 +128,7 @@ const Index = () => (
             </div>
             <div className="content-item col-6 col-sm-4 col-md-3 content-disabled">
               <div className="item-icon">
-                <img src="/static/icon/service-6.svg" />
+                <img src="/static/icon/service-4.svg" />
                 <div className="disabled-text-wrapper">
                   <p>COMING SOON</p>
                 </div>

@@ -8,7 +8,21 @@
     font-weight: 700;
     color: $black80;
   }
+
+  .hero-header {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/static/image/hero.jpg');
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 80vh;
+
+    h4 {
+      color: white;
+    }
+  }
   .hero {
+    
     &__image {
       position: relative;
 
@@ -76,14 +90,19 @@
 
   .section, .section-header {
     width: initial;
+
   }
 
   .section {
     border-top: 1px solid $black10;
 
+    &.no-border {
+      border: none;
+    }
+
     .row {
       .col-md-6 {
-        max-width: 480px;
+        // max-width: 480px;
       }
     }
   }
