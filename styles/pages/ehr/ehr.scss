@@ -71,6 +71,18 @@
         max-width: 350px;
         border: 2px solid rgba(0,0,0,.2);
         border-radius: 20px;
+
+        &__more-link {
+          font-weight: 700;
+          color: black;  
+          position: absolute;
+          bottom: 5%;
+          left: 0;
+                  
+          img {
+            width: 24px;
+          }
+        }
         
 
         .card__icon {

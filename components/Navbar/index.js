@@ -2,10 +2,13 @@ import ActiveLink from './ActiveLink'
 import React, { Component } from 'react';
 import Link from 'next/link';
 import "./index.scss";
+import { withRouter } from 'next/router'
+
 
 class Nav extends Component {
   constructor(props) {
     super(props)
+
     this.state = {
       lists: [
         {
@@ -64,14 +67,31 @@ class Nav extends Component {
       ]
       ,
       navActive: false,
+      scrollTop: 0,
     }
+  }
+
+
+  componentDidMount () {
+    window.scrollTo(0, 0);
+    window.addEventListener('scroll', this.handleScroll);
+  }
+
+  componentWillUnmount () {
+    window.removeEventListener('scroll', this.handleScroll);
+  }
+
+  handleScroll = () => {
+    let scrollTop = window.pageYOffset || document.documentElement.scrollTop
+    this.setState({
+      scrollTop
+    });
   }
 
   showAlert () {
     alert("Im an alert");
   }
   handleClick = () => {
-    const html = document.querySelector('html')
     this.setState({
       navActive: !this.state.navActive
     });
@@ -79,6 +99,14 @@ class Nav extends Component {
   }
 
   render () {
+
+
+    const homepage = this.props.router.pathname === '/' && this.state.scrollTop < 100
+
+    const logoLink = false ? '/static/icon/logo-only-white.svg' : '/static/icon/logo.svg'
+    const chevronLink = false ? '/static/icon/chevron-white.svg' : '/static/icon/chevron.svg'
+
+
     const navLists = this.state.lists
     const navRender = navLists.map((item, index) => {
       if (item.child) {
@@ -88,7 +116,7 @@ class Nav extends Component {
               <span className="link-text">
                 {item.name}
               </span>
-              <img className="chevron" src="/static/icon/chevron.svg" />
+              <img className="chevron" src={chevronLink} />
             </div>
             <div className="nav-child-wrapper">
               {
@@ -146,13 +174,13 @@ class Nav extends Component {
     })
 
     return (
-      <nav className="navigation ">
+      <nav className={homepage ? 'navigation' : 'navigation'}>
         <div className="nav-desktop container">
           <ActiveLink href="/">
             <img
               onClick={this.handleClick}
               className="logo"
-              src="/static/icon/logo.svg"
+              src={logoLink}
             />
           </ActiveLink>
           <div className="nav-center">
@@ -169,7 +197,7 @@ class Nav extends Component {
             <button className="btn btn--small primary">
               <Link href="/register">
                 <a >
-                  Daftar
+                  Coba Gratis
                 </a>
               </Link>
             </button>
@@ -201,7 +229,7 @@ class Nav extends Component {
             </Link>
             <Link href="/register">
               <a className="nav-item">
-                Daftar
+                Coba Gratis
               </a>
             </Link>
           </div>
@@ -211,4 +239,5 @@ class Nav extends Component {
   }
 }
 
-export default Nav;
+export default withRouter(Nav);
+

@@ -9,7 +9,10 @@
   }
 
   .price-banner {
-    background: white;
+    background-image: url('/static/icon/background-small.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
     border: 1px solid $black10;
     border-radius: 20px;
     width: 100%;
@@ -281,4 +284,85 @@
       }
     }
   }
+
+  .forth-section {
+    .card__wrapper {
+      position: relative;
+      display: flex;
+      align-items: center;
+  
+      .card__background {
+        background-color: rgba(30,30,40,1);
+        width: 100%;
+        height: 25vh;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translate3d(0, -50%, 0);
+        z-index: 1;
+      }
+  
+      p {
+        color: $white;
+        
+        b { 
+          color: $white;
+        }
+      }
+  
+      .card {
+        background-color: $primary50;
+        padding: 96px 0px;
+        background-image: url('/static/icon/background-small.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: 2;
+        position: relative;
+        margin: 0 auto;
+        border-radius: 30px;
+        color: white;
+  
+        .card__header {
+          color: white;
+        }
+  
+        .card__price {
+          .currency {
+            color: white;
+  
+          }
+          .amount {
+            color: white;
+            font-weight: 700;
+            font-size: 48px;
+  
+            @include media(md) {
+              font-size: 56px;
+            }
+          }
+        }
+  
+        .card__paymentMethod {
+          color: white;
+  
+        }
+  
+        .card__paymentMethod-info {
+          color: white;
+  
+        }
+  
+        button {
+          background-color: transparent;
+          border: 2px solid white;
+          
+          a {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+
+  
 }

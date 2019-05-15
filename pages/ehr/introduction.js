@@ -105,7 +105,7 @@ export class introduction extends Component {
                 })
               }
               <button className="btn btn--medium secondary mt-4">
-                <Link href="/ehr/introduction#table">
+                <Link href="/ehr/ehr-plugin">
                   <a>Pelajari Lebih Lanjut</a>
                 </Link>
               </button>
@@ -133,7 +133,7 @@ export class introduction extends Component {
                 })
               }
               <button className="btn btn--medium secondary mt-4">
-                <Link href="/ehr/introduction#table">
+                <Link href="/ehr/ehr-plugin">
                   <a>Pelajari Lebih Lanjut</a>
                 </Link>
               </button>
@@ -175,7 +175,7 @@ export class introduction extends Component {
               }
             </div>
             <div>
-              <Link href="/ehr/introduction#table">
+              <Link href="/ehr/ehr-plugin">
                 <a className="card__compare flex-center text-center my-3">
                   Bandingkan
                   <img className="ml-2" src="/static/icon/chevron-white.svg" />

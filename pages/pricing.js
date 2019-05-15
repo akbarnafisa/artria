@@ -162,6 +162,26 @@ export default function pricing () {
             </p>
           </div>
         </section>
+
+        <section className="section forth-section">
+
+          <div className="card__wrapper">
+            <div className="card__background" />
+            <div className="card flex-center flex-column px-4 px-md-7">
+              <h4 className="card__header fw-700">KLIK UNTUK 14 HARI TRIAL</h4>
+              <p>Tanpa kontrak. Tanpa Kartu Kredit.</p>
+              <p>Hubungi: <b>+6285758763112</b></p>
+              <button className="btn btn--small secondary mt-4">
+                <Link href="/register">
+                  <a>Coba Gratis Sekarang</a>
+                </Link>
+              </button>
+            </div>
+          </div>
+
+        </section>
+
+
       </section>
       <Footer />
     </section>

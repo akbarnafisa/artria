@@ -13,20 +13,23 @@ const index = () => (
           <p className="mb-1">cs@artria.id</p>
           <p className="mb-1">+62812345678</p>
           <div className="social-wrapper">
-            <a href="" target="_blank">
+            <a href="https://www.instagram.com/artria_id/" target="_blank">
               <img src="/static/icon/instagram.svg" />
             </a>
-            <a href="" target="_blank">
+            <a href="https://www.facebook.com/artriaMedikaIndonesia/" target="_blank">
               <img src="/static/icon/facebook.svg" />
             </a>
-            <a href="" target="_blank">
+            <a href="https://twitter.com/artria_id" target="_blank">
               <img src="/static/icon/twitter.svg" />
             </a>
-            <a href="" target="_blank">
+            <a href="https://www.youtube.com/channel/UCk4N6kT1QZEBiz62sfBhOXw/featured" target="_blank">
               <img src="/static/icon/youtube.svg" />
             </a>
-            <a href="" target="_blank">
+            <a href="https://www.linkedin.com/company/artria/" target="_blank">
               <img src="/static/icon/linkedin.svg" />
+            </a>
+            <a href="http://bit.ly/waartria" target="_blank">
+              <img src="/static/icon/whatsapp.svg" />
             </a>
           </div>
         </div>

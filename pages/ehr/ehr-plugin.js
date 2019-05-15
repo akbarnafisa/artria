@@ -42,7 +42,7 @@ export class introduction extends Component {
               Gunakan Artria dibeberapa device
               </h4>
             <button className="btn btn--medium secondary">
-              <Link href="/">
+              <Link href="/ehr/introduction">
                 <a >Pelajari lebih lanjut</a>
               </Link>
             </button>
@@ -144,6 +144,12 @@ export class introduction extends Component {
                   <p className="card__desc px-4 px-md-6">
                     Pasien Anda banyak? Kelola rekam medis secara mudah dengan tambahan fitur Home Care dan Telemedicine
                   </p>
+                  <Link href="/pricing">
+                    <a className="card__more-link flex-center w-100">
+                      Learn More
+                      <img className="ml-2" src="/static/icon/chevron.svg" />
+                    </a>
+                  </Link>
                 </div>
               </div>
               <div className=" col-md-6 col-12">
@@ -157,6 +163,12 @@ export class introduction extends Component {
                   <p className="card__desc px-4 px-md-6">
                     Bekerja sama dengan BPJS? Kami membantu Anda menyambungkan P-Care dengan Artria EHR agar pelaporan layanan kesehatan Anda jauh lebih praktis. Rujukan dan laporan bulanan ada di tangan Anda
                   </p>
+                  <Link href="/ehr/bpjs-plugin">
+                    <a className="card__more-link flex-center w-100">
+                      Learn More
+                      <img className="ml-2" src="/static/icon/chevron.svg" />
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
