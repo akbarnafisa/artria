@@ -68,7 +68,7 @@ export class introduction extends Component {
             <div className="row my-md-7">
 
               <div className="col-md-6 col-12 pr-md-7 flex-justify align-items-start  flex-column mb-4">
-                <img className="box-shadow" src="/static/image/ehr-2.jpg" />
+                <img className="box-shadow" src="/static/image/ehr-2.png" />
               </div>
 
               <div className="col-md-6 col-12  flex-justify   flex-column ">

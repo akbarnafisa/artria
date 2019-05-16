@@ -175,12 +175,10 @@ export class introduction extends Component {
               }
             </div>
             <div>
-              <Link href="/ehr/ehr-plugin">
-                <a className="card__compare flex-center text-center my-3">
-                  Bandingkan
-                  <img className="ml-2" src="/static/icon/chevron-white.svg" />
-                </a>
-              </Link>
+              <a href="#table" className="card__compare flex-center text-center my-3">
+                Bandingkan
+                <img className="ml-2" src="/static/icon/chevron-white.svg" />
+              </a>
               <button className="btn btn--medium primary">
                 <Link href="/register">
                   <a>

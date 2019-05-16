@@ -95,35 +95,54 @@ const Index = () => (
             Cocok Untuk berbagai Macam Pelayanan Kesehatan
           </h4>
           <div className="content-wrapper row">
-
             <div className="content-item col-6 col-sm-4 col-md-3 ">
-              <div className="item-icon">
-                <img src="/static/icon/service-1.svg" />
-              </div>
+              <Link href="/others/dokter-umum">
+                <a className="content-item col-6 col-sm-4 col-md-3">
+                  <div className="item-icon">
+                    <img src="/static/icon/service-1.svg" />
+                  </div>
+                </a>
+              </Link>
               Praktek Dokter Umum
             </div>
             <div className="content-item col-6 col-sm-4 col-md-3">
-              <div className="item-icon">
-                <img src="/static/icon/service-2.svg" />
-              </div>
+              <Link href="/others/dokter-gigi">
+                <a className="content-item col-6 col-sm-4 col-md-3">
+                  <div className="item-icon">
+                    <img src="/static/icon/service-2.svg" />
+                  </div>
+                </a>
+              </Link>
               Praktek Dokter Gigi
             </div>
             <div className="content-item col-6 col-sm-4 col-md-3">
-              <div className="item-icon">
-                <img src="/static/icon/service-3.svg" />
-              </div>
+              <Link href="/others/klinik-pratama">
+                <a className="content-item col-6 col-sm-4 col-md-3">
+                  <div className="item-icon">
+                    <img src="/static/icon/service-3.svg" />
+                  </div>
+                </a>
+              </Link>
               Klinik Pratama
             </div>
             <div className="content-item col-6 col-sm-4 col-md-3">
-              <div className="item-icon">
-                <img src="/static/icon/service-6.svg" />
-              </div>
+              <Link href="/others/klinik-pratama">
+                <a className="content-item col-6 col-sm-4 col-md-3">
+                  <div className="item-icon">
+                    <img src="/static/icon/service-6.svg" />
+                  </div>
+                </a>
+              </Link>
               Klinik Utama
             </div>
             <div className="content-item col-6 col-sm-4 col-md-3">
-              <div className="item-icon">
-                <img src="/static/icon/service-5.svg" />
-              </div>
+              <Link href="/others/puskesmas">
+                <a className="content-item col-6 col-sm-4 col-md-3">
+                  <div className="item-icon">
+                    <img src="/static/icon/service-5.svg" />
+                  </div>
+                </a>
+              </Link>
               Puskesmas
             </div>
             <div className="content-item col-6 col-sm-4 col-md-3 content-disabled">

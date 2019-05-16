@@ -25,10 +25,10 @@ export default function pricing () {
               <span className="amount">249.000</span>
             </div>
             <div className="price-info">
-              /klinik/bulan/bayar tahunan
+              /Klinik/Bulan Bayar Tahunan
           </div>
             <div className="price-info">
-              IDR 299.000/klinik/bulan/bayar bulanan
+              IDR 299.000/Klinik/Bulan Bayar Bulanan
           </div>
             <button className="btn btn--medium secondary mt-5 mw-1">
               <Link href="/register">

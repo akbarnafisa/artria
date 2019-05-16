@@ -11,7 +11,7 @@ const index = () => (
           <p className="mb-1 pr-3">Komplek Villa Kencana Damai Blok F.02 RT.021 RW.04 Kelurahan Sukamaju Kecamatan Sako Palembang, Indonesia</p>
           <h5 className="mt-5">Kontak</h5>
           <p className="mb-1">cs@artria.id</p>
-          <p className="mb-1">+62812345678</p>
+          <p className="mb-1">+6285758763112</p>
           <div className="social-wrapper">
             <a href="https://www.instagram.com/artria_id/" target="_blank">
               <img src="/static/icon/instagram.svg" />
@@ -50,9 +50,9 @@ const index = () => (
               Pricing
             </a>
           </Link>
-          <Link href="/others/dokter-umum">
+          <Link href="/contact">
             <a>
-              Lainya
+              Kontak
             </a>
           </Link>
           <Link href="/about">
@@ -60,6 +60,7 @@ const index = () => (
               Tentang
             </a>
           </Link>
+
           <Link href=" https://www.artria.id/news/">
             <a>
               News

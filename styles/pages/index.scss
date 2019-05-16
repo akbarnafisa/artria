@@ -128,6 +128,12 @@
         align-items: center;
         margin-top: 36px;
 
+        a {
+          width: 100%;
+          height: 100%;
+          display: contents;
+        }
+
         .item-icon {
           position: relative;
           margin-bottom: 16px;
