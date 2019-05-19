@@ -77,17 +77,18 @@ export default function pricing () {
                 <p >
                   Kelola rekam medis pasien Anda dengan memberikan pelayanan yang maksimal
                 </p>
-                <Link href="/ehr/ehr-plugin">
+                <Link href="/ehr/introduction">
                   <a className="card__more-link flex-items">
                     Learn More
                     <img className="ml-2" src="/static/icon/chevron-orange.svg" />
                   </a>
                 </Link>
-                <button className="btn btn--medium primary w-100">
-                  <Link href="/register">
+
+                <Link href="/register">
+                  <button className="btn btn--medium primary w-100">
                     <a>Beli</a>
-                  </Link>
-                </button>
+                  </button>
+                </Link>
               </div>
             </div>
 
@@ -115,11 +116,11 @@ export default function pricing () {
                     <img className="ml-2" src="/static/icon/chevron-green.svg" />
                   </a>
                 </Link>
-                <button className="btn btn--medium primary w-100">
-                  <Link href="/register">
+                <Link href="/register">
+                  <button className="btn btn--medium primary w-100">
                     <a>Beli</a>
-                  </Link>
-                </button>
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

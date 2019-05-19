@@ -186,9 +186,7 @@ const Index = () => (
             Kami siap membantu anda mengenal kami lebih baik lagi dengan media yang ada di Artria
           </p>
           <button className="btn btn--medium secondary mt-5 mw-1">
-            <Link href="/">
-              <a >Pelajari lebih lanjut</a>
-            </Link>
+            <a href="http://bit.ly/waartria" target="_blank">Pelajari lebih lanjut</a>
           </button>
         </div>
 

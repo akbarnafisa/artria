@@ -68,7 +68,7 @@ const index = () => (
           </Link>
           <Link href="https://job.artria.id/">
             <a>
-              Jobs
+              Artria Jobseeker
             </a>
           </Link>
         </div>

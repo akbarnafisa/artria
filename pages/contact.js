@@ -66,10 +66,6 @@ export default function contact () {
                 <div className="select">
                   <select value="default">
                     <option value="default" disabled >Request a Demo</option>
-                    <option value="volvo">Volvo</option>
-                    <option value="saab">Saab</option>
-                    <option value="mercedes">Mercedes</option>
-                    <option value="audi">Audi</option>
                   </select>
                 </div>
 

@@ -63,10 +63,6 @@ export class register extends Component {
                 <label>Pilih Tipe</label>
                 <select value="default">
                   <option value="default" disabled >Please Select</option>
-                  <option value="volvo">Volvo</option>
-                  <option value="saab">Saab</option>
-                  <option value="mercedes">Mercedes</option>
-                  <option value="audi">Audi</option>
                 </select>
               </div>
             </div>
@@ -76,10 +72,6 @@ export class register extends Component {
                 <label>Dimana Lokasi</label>
                 <select>
                   <option value="" disabled selected>Please Select</option>
-                  <option value="volvo">Volvo</option>
-                  <option value="saab">Saab</option>
-                  <option value="mercedes">Mercedes</option>
-                  <option value="audi">Audi</option>
                 </select>
               </div>
             </div>

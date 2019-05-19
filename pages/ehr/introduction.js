@@ -16,7 +16,13 @@ export class introduction extends Component {
       },
       pros: [{
         title: 'EHR Basic',
-        items: ['+5.000 EMR', 'PRM (Patient Relationship Management)', 'Artria Home Care Managed by Apps'],
+        items: [
+          '+5.000 EMR',
+          'PRM (Patient Relationship Management)',
+          'Artria Home Care Managed by Apps',
+          '137rb/Bulan/Klinik bayar Tahunan',
+          '149rb/Bulan/Klinik bayar Bulanan',
+        ],
         to: '',
       },
       {
@@ -27,6 +33,8 @@ export class introduction extends Component {
           'Artria Home Care Managed by Apps',
           'DOK (Artria Telemedicine managed by Apps)',
           'Offline Sync',
+          '227rb/Bulan/Klinik bayar Tahunan',
+          '249rb/Bulan/Klinik bayar Bulanan',
         ],
         to: '',
       }],

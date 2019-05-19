@@ -41,6 +41,11 @@ class Nav extends Component {
           child: '',
         },
         {
+          name: 'News',
+          to: 'https://www.artria.id/news/',
+          child: '',
+        },
+        {
           name: 'Lainnya',
           to: '',
           child: [{
