@@ -13,9 +13,7 @@ export default function contact () {
         <title>Artria - Contact</title>
       </Head>
       <Navbar />
-
       <section className="hero" />
-
       <section className="section-header first-section container pb-0">
         <div className="row flex-center flex-column">
           <h3 className="h2-sm h1-md fw-700">
@@ -25,9 +23,7 @@ export default function contact () {
             Artria Team siap mendengar dan melayani Anda.
           </p>
         </div>
-
       </section>
-
       <section className="section second-section container">
         <div className="row panel no-gutters">
           <div className="col-12 col-lg-7 panel__wrapper-first">
@@ -38,37 +34,30 @@ export default function contact () {
               <p>
                 Membutuhkan demo? Butuh bantuan teknis? Ada tawaran kerjasama dengan Artria?
               </p>
-
               <form>
-
                 <div className="form__group">
                   <div className="form__group-label">
                     <input type="text" placeholder="Nama Lengkap" />
                   </div>
                 </div>
-
                 <div className="form__group">
                   <div className="form__group-label">
                     <input type="email" placeholder="Email" />
                   </div>
                 </div>
-
                 <div className="form__group">
                   <div className="form__group-label">
                     <input type="email" placeholder="Telepon" />
                   </div>
                 </div>
-
                 <p>
                   <b>Topic</b>
                 </p>
-
                 <div className="select">
                   <select value="default">
                     <option value="default" disabled >Request a Demo</option>
                   </select>
                 </div>
-
                 <textarea placeholder="Masukan Pesan" />
                 <button className="btn btn--medium primary mt-4">
                   KIRIM
@@ -82,14 +71,12 @@ export default function contact () {
                 Cara lain untuk terhubung
               </h5>
               <div className="item__wrapper">
-
                 <div className="item">
                   <img src="/static/icon/facebook.svg" />
                   <a href="mailto:cs@artria.id" target="_blank">
                     cs@artria.id
                   </a>
                 </div>
-
                 <div className="item">
                   <img src="/static/icon/facebook.svg" />
                   <p>
@@ -99,9 +86,7 @@ export default function contact () {
                       Like halaman kami
                     </a>
                   </p>
-
                 </div>
-
                 <div className="item">
                   <img src="/static/icon/instagram.svg" />
                   <p>
@@ -111,9 +96,7 @@ export default function contact () {
                       Ikuti kami di Instagram
                     </a>
                   </p>
-
                 </div>
-
                 <div className="item">
                   <img src="/static/icon/twitter.svg" />
                   <p>
@@ -124,13 +107,11 @@ export default function contact () {
                     </a>
                   </p>
                 </div>
-
               </div>
             </div>
           </div>
         </div>
       </section>
-
       <div className="decoration"></div>
       <section className="section third-section ">
         <div className="flex-center">

@@ -29,9 +29,7 @@ export class about extends Component {
             </p>
           </div>
         </section>
-
         <hr className=" container" />
-
         <section className="hero__second-section flex-items">
           <div className="container">
             <div className="mw-1">
@@ -46,10 +44,8 @@ export class about extends Component {
             </div>
           </div>
         </section>
-
         <section className="section second-section container">
           <div className="row my-md-7">
-
             <div className="col-md-4 col-12 flex-center mb-5 ">
               <div className="mw-1">
                 <img src="/static/image/landing-page-hero.jpg" />
@@ -65,10 +61,8 @@ export class about extends Component {
                 Disini <b>Artria</b>  hadir sebagai solusi permasalahan medis dengan tujuan sebagai medical gateway (gerbang kesehatan) berbasis teknologi untuk memberikan pelayanan kesehatan yang mudah dan terintegritas.
               </p>
             </div>
-
           </div>
         </section>
-
         <Footer />
       </section>
     )
