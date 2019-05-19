@@ -186,7 +186,7 @@ export class introduction extends Component {
               <h4 className="card__header fw-400">Mulai dari</h4>
               <div className="card__price d-flex align-items-baseline">
                 <h3 className="currency mr-3">IDR</h3>
-                <h1 className="amount">249.000</h1>
+                <h1 className="amount">267.000</h1>
               </div>
               <h3 className="card__paymentMethod fw-400 mb-2">
                 per Bulan/Klinik

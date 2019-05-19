@@ -22,7 +22,7 @@ export default function pricing () {
           </p>
             <div className="price-wrapper">
               <span className="currency">IDR</span>
-              <span className="amount">249.000</span>
+              <span className="amount">267.00`0</span>
             </div>
             <div className="price-info">
               /Klinik/Bulan Bayar Tahunan
